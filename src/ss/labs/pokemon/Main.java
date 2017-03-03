@@ -13,6 +13,9 @@ public class Main {
         //TODO declare and initiate a Scanner
         Scanner scanner = new Scanner(System.in);
 
+        //loading
+        System.out.println("Loading Pokemon data...");
+
         //TODO declare and initiate pokedex as an ArrayList to store pokemon data
         ArrayList<PokemonData> pokeDex = new ArrayList();
 
@@ -20,7 +23,7 @@ public class Main {
         HashMap<String,Integer> typeCountMap = new HashMap();
 
 
-        System.out.println("Enter the Number of pokemon in the pokedex:");
+        //System.out.println("Enter the Number of pokemon in the pokedex:");
         //TODO 0: scan the number of the testData from user input
         int n;
         n = scanner.nextInt();
@@ -29,11 +32,11 @@ public class Main {
         for(int i=0;i<n;i++)
         {
             String name,type,move;
-            System.out.println("Enter pokemon name:");
+            //System.out.println("Enter pokemon name:");
             //TODO 1-1:scan pokemon name and save to a variable from user input
             name = scanner.next();
 
-            System.out.println("Enter pokemon type:");
+            //System.out.println("Enter pokemon type:");
             //TODO 1-2:scan pokemon type and save to a variable
             type = scanner.next();
 
@@ -41,7 +44,7 @@ public class Main {
             String typeTmp = type.toLowerCase();
             type = typeTmp;
 
-            System.out.println("Enter pokemon's move name:");
+            //System.out.println("Enter pokemon's move name:");
             //TODO 1-3:scan pokemon move's name
             move = scanner.next();
 
@@ -63,6 +66,7 @@ public class Main {
             }
         }
 
+        /*
         //TODO 5 print out the created pokemon information (multiple lines
         for(int i=0;i<n;i++)
         {
@@ -71,6 +75,7 @@ public class Main {
         }
         //TODO 6 print out how many type of pokemons in the pokedex
         System.out.println("number of types of pokemons: "+typeCountMap.size());
+        */
 
         //initial Random
         Random random = new Random();
