@@ -1,6 +1,8 @@
 # Assignment1
 software_lab_1
 
+================================================
+
 This assignment is based on the practice in the lab.
 
 ================================================
@@ -22,6 +24,14 @@ The request
     Comments, coding style and documentation ----- done
     comments already in my code.
 
+================================================
+
 What feature I add?
     1.A GUI like interface, easier and cleaner to see.
     2.React to wrong action is random.
+
+================================================
+
+What difficulty I met?
+    1.Iterator in HashMap
+    I google it, and nailed it.
